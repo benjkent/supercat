@@ -10,9 +10,12 @@
 - edit repo locally, save, and add (stage) all files
 >git add . 
 - commit all changes and add a message of you intent -- ex: create_readme_file
->git commit - m initialcommit
+>git commit -m initialcommit
 - You will be in the master branch *most likely*
 - Rename the "master" branch to "main"
  >git branch -M main
 - push you changes up to github repo
- >git push origin main
+ >git push -u origin main
+## oops and oboys
+- use quotes to "to state your intent" on a commit to make it legable. 
+>git commit -m "my intent with this commit is"
