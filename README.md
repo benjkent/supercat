@@ -19,3 +19,5 @@
 ## oops and oboys
 - use quotes to "to state your intent" on a commit to make it legable. 
 >git commit -m "my intent with this commit is"
+- make sure you actually saved the file locally. CMD + s or whatever your IDE requires. Git does not auto save you work. 
+> git is magic, but it does not save you work. -you've been warned.
