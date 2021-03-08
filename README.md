@@ -69,3 +69,19 @@ git commit -m "add a landing page"
 git push -u origin main
 ```
 Now when we refresh the page we went to earlier - after some github magic time - our index page is now rendered in the browser.
+
+## Let's add some styling 
+```sh
+git checkout -b styling
+```
+We are going to make a branch, check it out, and call it styling.
+
+Our IDE should now reflect our new branch "styling" 
+
+In the project create a styles.css file and create a link to it in the index.html file
+just below the title tag 
+```html
+<title>Document</title>
+<link rel="stylesheet" href="styles.css">
+...
+```
