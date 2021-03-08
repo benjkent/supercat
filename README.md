@@ -99,3 +99,24 @@ Goto the Github repo to pull and merge the changes.
 Then refresh the page with to see our changes.
 
 _it may take a minute for the magic to work_
+
+## Lastly we want to isolate the site "github page" from our maincode base repo.
+
+_this just keeps the files a bit more orgainized_
+
+- we will create a new branch to do this work in and push it to the origin on the repo.
+
+```sh
+git checkout -b site
+git push origin site
+```
+_note: we did not make any changes to the code._
+
+- now go to the github repo and the "site" branch should be available.
+- go back to the settings tab and scroll down to the "github pages" pane. 
+- in the dropdown change the "main" to "site"
+
+This tells github pages to look in this branch for the details source to render.
+
+DONE.
+
