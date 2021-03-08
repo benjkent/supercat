@@ -1,7 +1,7 @@
 ## Read Me
 ### _A simple exploration into the unknown world of Github pages_
 
-## Mission:
+ ## Mission:
 1. Create an inital project repo
 2. Add a Main project landing page with one additional page
 3. Isolate the "project site" from the main repo projects code base.  
@@ -56,4 +56,17 @@ folder and above that a url.
 
 clicking on the link will take you to the your landing page.
 
-mine currently displays the readme file. 
+If you created a read me file it will be displayed. If not thats ok. Were going to make an index.html page and add that to our project.    
+
+In your local repo create an file named index.html in the same directory as you readme.md file.
+
+- Put some basic html code in this file. 
+- Save the file...remember the warning about saving? 
+
+```sh
+git add .
+git commit -m "add a landing page"
+git push -u origin main
+```
+Now when we refresh the page we went to earilier - after some github magic time - our index page is now rendered in the browser.
+ 
