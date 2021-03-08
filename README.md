@@ -85,3 +85,17 @@ just below the title tag
 <link rel="stylesheet" href="styles.css">
 ...
 ```
+save the files then 
+```sh
+git add .
+git commit -m "add style"
+git push origin styling
+```
+we are pushing this branch up to the repo. 
+We need to create a pull request and then merge the changes into the main for the changes to take effect. 
+
+Goto the Github repo to pull and merge the changes. 
+
+Then refresh the page with to see our changes.
+
+_it may take a minute for the magic to work_
