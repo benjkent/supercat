@@ -68,5 +68,4 @@ git add .
 git commit -m "add a landing page"
 git push -u origin main
 ```
-Now when we refresh the page we went to earilier - after some github magic time - our index page is now rendered in the browser.
- 
+Now when we refresh the page we went to earlier - after some github magic time - our index page is now rendered in the browser.
