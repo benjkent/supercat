@@ -5,7 +5,7 @@
 1. Create an inital project repo
 2. Add a Main project landing page with one additional page
 3. Isolate the "project site" from the main repo projects code base.  
- ###  Creating the project repo
+ #  Creating the project repo
 - create the repo on github.com under your account
 - clone the repo locally to your favorite directory
  ```sh
@@ -41,7 +41,7 @@ git commit -m "my intent with this commit is"
 > work you tell it to.
 > You've been
 > warned.
-## Add a main page to our repo 
+# Add a main page to our repo 
  In our github repo for this project there is a Settings tab to the right at the top of the page. 
 
  Scroll down to the "GitHub Pages" element
@@ -100,7 +100,7 @@ Then refresh the page with to see our changes.
 
 _it may take a minute for the magic to work_
 
-## Lastly we want to isolate the site "github page" from our maincode base repo.
+# Lastly we want to isolate the site "github page" from our maincode base repo.
 
 _this just keeps the files a bit more orgainized_
 
@@ -147,3 +147,23 @@ switching to the "site" branch shows the structure files of our site.
 So any further changes to the site MUST be made from the "site" branch or a branch of the site. 
 
 _Note: this will not ever be in sync with the "main"._
+
+# Making changes to the site.
+
+1. We need to checkout the "site" branch 
+```sh
+git checkout site
+```
+_this will give us access to a directory to make any changes we want to_
+
+2. stage the changes and commit them
+```sh
+git add .
+git commit -m "make the best change ever"
+```
+3. push our changes up to the repo. 
+```sh
+git push origin site
+```
+
+Check out the sites url - after a magic minute.
