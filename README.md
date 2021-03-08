@@ -120,3 +120,17 @@ This tells github pages to look in this branch for the details source to render.
 
 DONE.
 
+### Magic time: 
+- we are going to switch branches back to main and delete the 
+> index.html
+
+and 
+
+> styles.css
+
+This will only keep the Github pages site separate from the main codebase. And we can work on the site without interfering with any code in the main or anyone working on the main or a branch from main changing the site content.
+
+```sh
+git checkout main
+```
+
