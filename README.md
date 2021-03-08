@@ -5,7 +5,7 @@
 1. Create an inital project repo
 2. Add a Main project landing page with one additional page
 3. Isolate the "project site" from the main repo projects code base.  
- ### Creating the project repo
+ ###  Creating the project repo
 - create the repo on github.com under your account
 - clone the repo locally to your favorite directory
  ```sh
@@ -31,7 +31,7 @@ git commit -m initialcommit
  git push -u origin main
  ```
 ## oops and oboys
-- use quotes to "to state your intent" on a commit to make it legable. 
+- use quotes "to state your intent" on a commit to make it legable. 
 ```sh
 git commit -m "my intent with this commit is"
 ```
@@ -41,3 +41,19 @@ git commit -m "my intent with this commit is"
 > work you tell it to.
 > You've been
 > warned.
+## Add a main page to our repo 
+ In our github repo for this project there is a Settings tab to the right at the top of the page. 
+
+ Scroll down to the "GitHub Pages" element
+.
+
+Selecting the button in the "Source" pane that says "None." Change it to the "Main" and Save.
+
+You will now see a /root
+folder and above that a url. 
+> your site is ready to be published at https://
+> repo-name.github.io/project-name/
+
+clicking on the link will take you to the your landing page.
+
+mine currently displays the readme file. 
