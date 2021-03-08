@@ -133,4 +133,17 @@ This will only keep the Github pages site separate from the main codebase. And w
 ```sh
 git checkout main
 ```
+- delete the index.html and styles.css file in this branch.
 
+```sh
+git add . 
+git commit -m cleanup
+git push origin main
+```
+if you look in the code section on the "main" branch there is only the readme file. 
+
+switching to the "site" branch shows the structure files of our site. 
+
+So any further changes to the site MUST be made from the "site" branch or a branch of the site. 
+
+_Note: this will not ever be in sync with the "main"._
